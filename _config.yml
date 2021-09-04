@@ -15,9 +15,9 @@ author: huhuifeng
 
 navbar-links:
   Books adn Videos: "https://huhuifeng.github.io/Books_Videos"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Literature about RL:
+    - Base on Q learning: "https://huhuifeng.github.io/Base_Qlearning"
+    - Policy Gradient: "https://www.markdowntutorial.com/Policy_Gradient"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
