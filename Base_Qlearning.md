@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Books and Videos
-subtitle:  about RL
+title: Base on Q learning
+subtitle:  some algorithms based on Q learning
 ---
 # DQN
 # DQN plus
