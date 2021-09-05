@@ -17,4 +17,5 @@ subtitle:  some algorithms based on Q learning
 4. **Dueling Network Architectures for Deep Reinforcement Learning** ICML16. [paper](https://arxiv.org/abs/1511.06581)**DQN(Dueling)**
 
     *Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas*
+
 ## Model-based RL
