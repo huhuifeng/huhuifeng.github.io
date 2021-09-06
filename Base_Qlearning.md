@@ -22,7 +22,7 @@ subtitle:  some algorithms based on Q learning
 
     *Matthew Hausknecht, Peter Stone*
     
-6. **Prioritized Experience Replay** ICLR 2016. [paper](https://arxiv.org/abs/1507.06527)
+6. **Prioritized Experience Replay** ICLR 2016. [paper](https://arxiv.org/pdf/1511.05952.pdf)
 
     *Tom Schaul, John Quan, Ioannis Antonoglou, David Silver*
  
