@@ -6,7 +6,7 @@ subtitle:  some policy Gradient algorithm
 
 # PPO
 # TRPO
-1. **Trust region policy optimization** NIPS Deep Learning Workshop 2013. [paper](https://arxiv.org/abs/1312.5602) **DQN(early)**
+1. **Trust region policy optimization** NIPS Deep Learning Workshop 2013. [paper](https://arxiv.org/abs/1312.5602) **TRPO**
 
     *J. Schulman, S. Levine, P. Moritz, M. I. Jordan, and P. Abbeel. *
 
