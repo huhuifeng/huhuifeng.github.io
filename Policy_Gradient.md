@@ -12,7 +12,7 @@ subtitle:  some policy Gradient algorithm
 
    <details>
    <summary> Abstract </summary>
-   We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a      convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our          method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all             previous       approaches on six of the games and surpasses a human expert on three of them.
+   We describe an iterative procedure for optimizing policies, with guaranteed monotonic improvement. By making several approximations to the theoretically-justified procedure, we develop a practical algorithm, called Trust Region Policy Optimization (TRPO). This algorithm is similar to natural policy gradient methods and is effective for optimizing large nonlinear policies such as neural networks. Our experiments demonstrate its robust performance on a wide variety of tasks: learning simulated robotic swimming, hopping, and walking gaits; and playing Atari games using images of the screen as input. Despite its approximations that deviate from the theory, TRPO tends to give monotonic improvement, with little tuning of hyperparameters.
    </details>
 
 # DDPG
