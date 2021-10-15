@@ -101,6 +101,11 @@ subtitle:  some algorithms based on Q learning
 
     *Jacob Buckman, Danijar Hafner, George Tucker, Eugene Brevdo, Honglak Lee*
 
+      <details>
+      <summary> Abstract </summary>
+       The deep reinforcement learning community has made several independent improvements to the DQN algorithm. However, it is unclear which of these extensions are complementary and can be fruitfully combined. This paper examines six extensions to the DQN algorithm and empirically studies their combination. Our experiments show that the combination provides state-of-the-art performance on the Atari 2600 benchmark, both in terms of data efficiency and final performance. We also provide results from a detailed ablation study that shows the contribution of each component to overall performance.
+      </details>
+
 2. **Model-Based Value Estimation for Efficient Model-Free Reinforcement Learning**  ICML2018.[paper](https://arxiv.org/abs/1803.00101)
 
     *Vladimir Feinberg, Alvin Wan, Ion Stoica, Michael I. Jordan, Joseph E. Gonzalez, Sergey Levine* 
