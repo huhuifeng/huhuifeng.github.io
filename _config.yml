@@ -14,7 +14,7 @@ author: huhuifeng
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Books adn Videos: "https://huhuifeng.github.io/Books_Videos"
+  Books and Videos: "https://huhuifeng.github.io/Books_Videos"
   Literature about RL:
     - Base on Q learning: "https://huhuifeng.github.io/Base_Qlearning"
     - Policy Gradient: "https://huhuifeng.github.io/Policy_Gradient"
