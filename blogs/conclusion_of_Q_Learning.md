@@ -10,7 +10,7 @@ subtitle: based on Q learning
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
 ![DQN_nature](/blogs/pictures/DQN_nature.png)
 
-$Q^\ast(s, a)=\mathbb{E}_{s^{\prime}\sim\Epsilon}\left[r+\gamma\underset{a^{\prime}}Q^{\ast}\left(s^{\prime}, a^{\prime}\right) \mid \mathrm{s}, \mathrm{a}\right]$
+$Q^\ast(s, a)=\mathbb{E}_{s^{\prime}\sim\mathcal{E}}\left[r+\gamma\underset{a^{\prime}}{max}Q^{\ast}\left(s^{\prime}, a^{\prime}\right) \mid \mathrm{s}, \mathrm{a}\right]$
 
 $\text{令}y_i = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right],\text{则}$
 	
