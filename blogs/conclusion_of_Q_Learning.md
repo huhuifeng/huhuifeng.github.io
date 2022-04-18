@@ -23,9 +23,9 @@ $$\nabla _{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a\sim\rho(\dots);s^{'}\sim\m
 
 其中$\mathbb{E}$表示环境，$r$表示奖励信号或者回报，$\rho(\cdot)$表示动作的概率分布，$y_i$表示由目标值网络提供的真实值，$Q(s,a;\theta_i)$表示当前值网络的拟合值。
 #### 经验池技术
-![Experience Replay](/blogs/pictures/Experience_Replay.png)
+![Experience Replay](/blogs/pictures/experience_Replay.png)
 <center>
-    <b><font face="楷体" size=5> 图2. 经验池技术示意</font></b>
+    <b><font face="楷体" size=5> 图2. 经验池技术示意图</font></b>
 </center>
 DQN中一个比较重要的技术就是经验池技术(<font face="黑体" color=red>Experience Replay</font>)
 ### 3.Double DQN
