@@ -16,10 +16,10 @@ author: huhuifeng
 navbar-links:
   Books and Videos: "https://huhuifeng.github.io/Books_Videos"
   Literature about RL:
-    - literature base on Q learning: "https://huhuifeng.github.io/Base_Qlearning"
-    - conclusion base on Q learning: "https://huhuifeng.github.io/Base_Qlearning"
-    - Policy Gradient: "https://huhuifeng.github.io/Policy_Gradient"
-  Multi Agent: "https://huhuifeng.github.io/Multi_Agent"
+    - literature base on Q learning: "https://huhuifeng.github.io/blogs/Base_Qlearning"
+    - conclusion base on Q learning: "https://huhuifeng.github.io/blogs/Base_Qlearning"
+    - Policy Gradient: "https://huhuifeng.github.io/blogs/Policy_Gradient"
+  Multi Agent: "https://huhuifeng.github.io/blogs/Multi_Agent"
 
 # --- Logo --- #
 
