@@ -1,4 +1,8 @@
-some conclusions of RL which based on Q learning 
+---
+layout: page
+title: some conclusions of RL which based on Q learning 
+---
+
 ### DQN
 [paper](https://arxiv.org/abs/1312.5602) **DQN(early)**
 ### DQN(nature)
