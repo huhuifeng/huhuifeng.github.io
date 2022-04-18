@@ -32,6 +32,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 <b><font color=blue>经验池技术的好处</font></b>：
 - 经验池的每个状态转移样本都可能在许多权重更新中使用，这可以<b><font face="黑体" color=red>提高数据利用率</font></b>.
 - 随机化的处理打乱了游戏过程的连续性和相关性，从而<b><font face="黑体" color=red>减少了更新的方差</font></b>.
+状态输入是从经验池获取的状态$s$，输出层的个数与动作空间的大小相同。
 
 
 
