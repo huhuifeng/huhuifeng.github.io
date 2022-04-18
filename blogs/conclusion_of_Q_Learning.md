@@ -9,6 +9,9 @@ subtitle: based on Q learning
 ### DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
 ![DQN_nature](/blogs/pictures/DQN_nature.png)
+<center>
+DQN nature版本框架
+</center>
 
 $$Q^\ast(s, a)=\mathbb{E}_{s^{\prime}\sim\mathcal{E}}\left[r+\gamma\underset{a^{\prime}}{max}Q^{\ast}\left(s^{\prime}, a^{\prime}\right) \mid \mathrm{s}, \mathrm{a}\right]$$
 
