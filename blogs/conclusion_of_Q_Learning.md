@@ -1,6 +1,7 @@
 ---
 layout: page
-title: some conclusions of RL which based on Q learning 
+title: some conclusions of RL
+subtitle: based on Q learning 
 ---
 
 ### DQN
