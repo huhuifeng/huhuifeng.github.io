@@ -4,7 +4,7 @@ title: some conclusions of RL
 subtitle: based on Q learning 
 ---
 
-### DQN
+### -DQN
 [paper](https://arxiv.org/abs/1312.5602) **DQN(early)**
 ### DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
