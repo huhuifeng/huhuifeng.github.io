@@ -17,7 +17,7 @@ navbar-links:
   Books and Videos: "https://huhuifeng.github.io/Books_Videos"
   Literature about RL:
     - literature base on Q learning: "https://huhuifeng.github.io/blogs/Base_Qlearning"
-    - conclusion base on Q learning: "https://huhuifeng.github.io/blogs/Base_Qlearning"
+    - conclusion base on Q learning: "https://huhuifeng.github.io/blogs/conclusion_of_Q_learning"
     - Policy Gradient: "https://huhuifeng.github.io/blogs/Policy_Gradient"
   Multi Agent: "https://huhuifeng.github.io/blogs/Multi_Agent"
 
