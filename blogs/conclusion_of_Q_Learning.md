@@ -9,14 +9,13 @@ subtitle: based on Q learning
 ### DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
 ![DQN_nature](/blogs/pictures/DQN_nature.png)
-\begin{gather}
-Q^*(s,a) = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right]
-\end{gather}
-$$\text{令}y_i = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right],\text{则}$$
+$Q^*(s,a) = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right]$
+
+$\text{令}y_i = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right],\text{则}$
 	
-$$L_i(\theta_i) = \mathbb{E}_{s,a\sim\rho(\cdot)}\left[(y_i-Q(s,a;\theta_i))^{2}\right]$$
+$L_i(\theta_i) = \mathbb{E}_{s,a\sim\rho(\cdot)}\left[(y_i-Q(s,a;\theta_i))^{2}\right]$
 	
-$$\nabla_{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a-\rho(\dots);s^{'}-\mathcal{E}}\left[(r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})-Q(s,a;\theta_i))\nabla_{\theta_i}Q(s,a;\theta_i)\right]$$
+$\nabla_{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a-\rho(\dots);s^{'}-\mathcal{E}}\left[(r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})-Q(s,a;\theta_i))\nabla_{\theta_i}Q(s,a;\theta_i)\right]$
 
 ### Double DQN
 [paper link](https://arxiv.org/abs/1509.06461) **DQN(Double)**
