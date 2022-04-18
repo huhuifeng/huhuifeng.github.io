@@ -4,9 +4,9 @@ title: some conclusions of RL
 subtitle: based on Q learning 
 ---
 
-### -DQN
+### 1.DQN
 [paper](https://arxiv.org/abs/1312.5602) **DQN(early)**
-### DQN(nature)
+### 2.DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
 ![DQN_nature](/blogs/pictures/DQN_nature.png)
 <center>
@@ -21,10 +21,10 @@ $$L_i(\theta_i) = \mathbb{E}_{s,a\sim\rho(\cdot)}\left[(y_i-Q(s,a;\theta_i))^{2}
 	
 $$\nabla _{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a\sim\rho(\dots);s^{'}\sim\mathcal{E}}\left[(r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'};\bar{\theta}_{i})-Q(s,a;\theta_i))\nabla _{\theta_i}Q(s,a;\theta_i)\right]$$
 
-### Double DQN
+### 3.Double DQN
 [paper link](https://arxiv.org/abs/1509.06461) **DQN(Double)**
 
-### Prioritized Experience Replay DQN
+### 4.Prioritized Experience Replay DQN
 [paper link](https://arxiv.org/abs/1511.05952) **DQN(Prioritized)**
-### Dual-DQN
+### 5.Dual-DQN
 [paper link](https://arxiv.org/abs/1511.06581) **DQN(Dueling)**
