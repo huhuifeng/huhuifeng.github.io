@@ -28,6 +28,7 @@ $$\nabla _{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a\sim\rho(\dots);s^{'}\sim\m
     <b><font face="楷体" size=5> 图2. 经验池技术示意图</font></b>
 </center>
 DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是经验池技术(<font face="黑体" color=red>Experience Replay</font>)[^1]。经验池技术也不是DQN论文首次提出,只是首次运用到深度强化学习当中，该技术是1993年就提出了。它的主要作用是解决<font face="黑体" color=red>数据的相关性和非静态分布问题</font>。即将每个时间步Agent与环境交互得到的状态转移样本$(s_t,a_t,r_t,s_{t+1})$，存储到一个记忆单元（多维元组；有一个存储上限，即容量$D$）中，在要训练的时候<font face = "黑体" color = red>随机抽取一些</font>用于神经网络的训练，注意此处是一些，Q learning每次训练的是采用一个样本进行训练。
+
 <b><font color=blue>经验池技术的好处</font></b>：
 - 经验池的每个状态转移样本都可能在许多权重更新中使用，这可以<b><font face="黑体" color=red>提高数据利用率</font></b>.
 - 随机化的处理打乱了游戏过程的连续性和相关性，从而<b><font face="黑体" color=red>减少了更新的方差</font></b>.
