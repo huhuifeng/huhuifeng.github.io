@@ -27,7 +27,7 @@ $$\nabla _{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a\sim\rho(\dots);s^{'}\sim\m
 <center>
     <b><font face="楷体" size=5> 图2. 经验池技术示意图</font></b>
 </center>
-DQN中一个比较重要的技术就是经验池技术(<font face="黑体" color=red>Experience Replay</font>)
+DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是经验池技术(<font face="黑体" color=red>Experience Replay</font>)
 ### 3.Double DQN
 [paper link](https://arxiv.org/abs/1509.06461) **DQN(Double)**
 
