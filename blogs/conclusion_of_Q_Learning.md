@@ -9,9 +9,9 @@ subtitle: based on Q learning
 ### DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
 ![DQN_nature](/blogs/pictures/DQN_nature.png)
-
-$$Q^*(s,a) = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right]$$
-	
+\begin{gather}
+Q^*(s,a) = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right]$$
+\end{gather}
 $$\text{令}y_i = \mathbb{E}_{s^{'}\sim\mathcal{E}}\left[r+\gamma\underset{a^{'}}{max}Q^*(s^{'},a^{'})|s,a\right],\text{则}$$
 	
 $$L_i(\theta_i) = \mathbb{E}_{s,a\sim\rho(\cdot)}\left[(y_i-Q(s,a;\theta_i))^{2}\right]$$
