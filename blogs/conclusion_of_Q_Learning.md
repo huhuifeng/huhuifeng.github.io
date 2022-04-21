@@ -98,6 +98,10 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 
 &emsp;&emsp;假如每个阶段随机的选择两个动作，那么得到奖励的概率是$2^{-n}$，相关的transitions即少量成功的信息隐藏在大量失败信息当中.类似于一个双足机器人在学会走路之前反复摔倒[^3].
 
+### Notification
+
+{: .box-note}
+**Note:** This is a notification box.
 
 ### 5.Dual-DQN
 [paper link](https://arxiv.org/abs/1511.06581) **DQN(Dueling)**
