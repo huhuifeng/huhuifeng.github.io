@@ -104,7 +104,5 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 [paper link](https://arxiv.org/abs/1511.06581) **DQN(Dueling)**
 
 [^1] :Long-Ji Lin. Reinforcement learning for robots using neural networks. Technical report, DTIC Document, 1993.
-
 [^2] :H. van Hasselt, A. Guez, and D. Silver, “Deep Reinforcement Learning with Double Q-Learning”, AAAI, vol. 30, no. 1, Mar. 2016.
-
 [^3] :Schaul T, Quan J, Antonoglou I, et al. Prioritized experience replay[J]. arXiv preprint arXiv:1511.05952, 2015.
