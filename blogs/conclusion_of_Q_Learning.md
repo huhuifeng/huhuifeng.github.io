@@ -88,9 +88,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 - 优先经验回放怎么解决这些问题？
 - 优先经验回放又存在哪些问题？
 
-<div align=center>
-	<img src="https://github.com/huhuifeng/huhuifeng.github.io/tree/master/blogs/pictures/pri_example.png"/>
-</div>
+![pri_example](./pictures/pri_example.png)
 <center>
 	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"</font></b>
 </center>
