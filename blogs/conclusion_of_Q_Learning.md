@@ -91,6 +91,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 <div align=center>
 	![DQN_nature_net](./pictures/DQN_net.png)
 </div>
+
 <center>
 	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"</font></b>
 </center>
