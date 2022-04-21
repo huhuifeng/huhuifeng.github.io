@@ -8,7 +8,7 @@ subtitle: based on Q learning
 [paper](https://arxiv.org/abs/1312.5602) **DQN(early)**
 ### 2.DQN(nature)
 [paper link](https://www.nature.com/articles/nature14236) **DQN(Nature)**
-![DQN_nature](/images/DQN_nature.png)
+![DQN_nature](./pictures/DQN_nature.png)
 <center>
     <b><font face="楷体" size=4> 图1. DQN nature版本框架 </font></b>
 </center>
@@ -23,7 +23,7 @@ $$\nabla _{\theta_i}L_{i}(\theta_i) = \mathbb{E}_{s,a\sim\rho(\dots);s^{'}\sim\m
 
 其中$\mathbb{E}$表示环境，$r$表示奖励信号或者回报，$\rho(\cdot)$表示动作的概率分布，$y_i$表示由目标值网络提供的真实值，$Q(s,a;\theta_i)$表示当前值网络的拟合值.
 #### 经验池技术
-![Experience Replay](/images/experience_Replay.png)
+![Experience Replay](./pictures/experience_Replay.png)
 <center>
     <b><font face="楷体" size=4> 图2. 经验池技术示意图</font></b>
 </center>
@@ -34,14 +34,14 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 - 经验池的每个状态转移样本都可能在许多权重更新中使用，这可以<b><font face="黑体" color=red>提高数据利用率</font></b>.
 - 随机化的处理打乱了游戏过程的连续性和相关性，从而<b><font face="黑体" color=red>减少了更新的方差</font></b>.
 #### 神经网络的一些细节
-![DQN_nature_net](/images/DQN_net.png)
+![DQN_nature_net](./pictures/DQN_net.png)
 <center>
     <b><font face="楷体" size=4> 图3. DQN神经网络示意图</font></b>
 </center>
 
 状态输入是从经验池获取的状态$s$，<b><font face="开题楷体" color=red>输出层的个数与动作空间的大小相同.</font></b>
 
-![DQN_2013_algorithm](/images/DQN_Alg.png)
+![DQN_2013_algorithm](./pictures/DQN_Alg.png)
 <center>
     <b><font face="楷体" size=4> 图4. DQN2013版算法描述</font></b>
 </center>
@@ -67,7 +67,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 ### 3.Double DQN
 [paper link](https://arxiv.org/abs/1509.06461) **DQN(Double)**
 <b><font face="楷体" color=blue size = 5>DQN的估计准确吗？</font></b>
-![over_estimation](/images/over_estimation.png)
+![over_estimation](./pictures/over_estimation.png)
 
 <center>
 	<b><font face="楷体" size=4> 图3. DQN vs DDQN</font></b>
