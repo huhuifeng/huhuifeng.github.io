@@ -117,8 +117,9 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 - 一种理想的机制是在当前状态下，按照agent学习一个transtion的次数作为其优先级，但是这种方法不好直接获取.
 - 一种可替代的合理的机制是根据TD误差来确立一个transtion的优先级.
 
-{: .box-note}
-**TD误差(Q-learning)的表达式:** $\delta_{t}:=R_{t}+\gamma_{t} \max _{a} Q\left(S_{t}, a\right)-Q\left(S_{t-1}, A_{t-1}\right)$.
+
+**TD误差(Q-learning)的表达式:**
+ $$\delta_{t}:=R_{t}+\gamma_{t} \max _{a} Q\left(S_{t}, a\right)-Q\left(S_{t-1}, A_{t-1}\right)$$.
 
 <b><font color=red>TD误差</font></b>表示当前Q值和目标Q值之间的差距，如果<b><font color=red>TD误差</font></b>(<b><font color=blue>绝对值</font></b>)越大，就代表强化学习的精度还有待提高，那么<b><font color=red>这个transtion</font></b>越需要被学习，因此相应的学习优先级应该比较高.
 
