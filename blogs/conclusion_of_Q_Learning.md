@@ -104,7 +104,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"的对比结果</font></b>
 </center>
 
-对上面结果的一些介绍：
+对上面结果的一些介绍:
 - 随机均匀地进行经验池回放的结果如上图黑色的线所示.
 - 利用oracle进行优先级经验池回放如靛蓝色的线所示.
 - 灰色的线表示每十次采样的最大值和最小值.
