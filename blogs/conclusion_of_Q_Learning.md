@@ -120,6 +120,11 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 {: .box-note}
 **TD误差(Q-learning)的表达式:** $\delta_{t}:=R_{t}+\gamma_{t} \max _{a} Q\left(S_{t}, a\right)-Q\left(S_{t-1}, A_{t-1}\right)$.
 
+<b><font color=red>TD误差</font></b>表示当前Q值和目标Q值之间的差距，如果<b><font color=red>TD误差</font></b>(<b><font color=blue>绝对值</font></b>)越大，就代表强化学习的精度还有待提高，那么<b><font color=red>这个transtion</font></b>越需要被学习，因此相应的学习优先级应该比较高.
+
+{: .box-error}
+**注意:** 值得注意的是当reward有noisy的时候，用<b><font color=red>TD误差</font></b>来估计优先级的效果也不是很好，个人理解是因为<b><font color=red>TD误差</font></b>是用reward进行计算的，reward有噪声的影响的话，整体的<b><font color=red>TD误差</font></b>也会受到影响，从而影响transtion的优先级.
+
 ### Notification
 
 {: .box-note}
