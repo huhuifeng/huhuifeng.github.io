@@ -95,7 +95,6 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"</font></b>
 </center>
 &emsp;&emsp;上面“Blind Cliffwalk”环境，agent每一步有两个选择“right”和“wrong”，其中红色虚线表示“<font color=red>wrong</font>”黑色实箭头表示“right”.每个episode中以agent采取“<font color=red>wrong</font>”行动作为终止条件，只有agent不断采取“right”行动，并且到达n step才会获得奖励1（如绿色箭头所示），其他情况获得的奖励均为0.
-
 &emsp;&emsp;假如每个阶段随机的选择两个动作，那么得到奖励的概率是$2^{-n}$，相关的transitions即少量成功的信息隐藏在大量失败信息当中.类似于一个双足机器人在学会走路之前反复摔倒[^3].
 
 ### Notification
