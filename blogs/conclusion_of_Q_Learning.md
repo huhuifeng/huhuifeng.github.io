@@ -127,6 +127,17 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 {: .box-error}
 **注意:** 值得注意的是当reward有noisy的时候，用<b><font color=red>TD误差</font></b>来估计优先级的效果也不是很好，个人理解是因为<b><font color=red>TD误差</font></b>是用reward进行计算的，reward有噪声的影响的话，整体的<b><font color=red>TD误差</font></b>也会受到影响，从而影响transtion的优先级.
 
+下面介绍运用<b><font color=red>TD误差</font></b>确立transitions优先级的一些细节：
+- 在经验池存储每个transition以及其<b><font color=red>最后遇到</font></b>的TD误差.
+- 如果一个<b><font color=blue>新的transition</font></b>到来时，我们不知道它的TD误差，那么<b><font color=red>把这个transition的TD误差设置为最大(即最高的优先级)</font></b>，以保证所有的“经验”都会被回放一次.
+- 对于TD误差绝对值最大的进行回放.这种方法被称为<b><font color=red>"greedy TD-error prioritization"</font></b>(贪心的TD误差优先级算法).
+
+![pri_compare](./pictures/pri_compare_TD.png){: .mx-auto.d-block :}
+
+<center>
+	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"上 greedy vs uniform</font></b>
+</center>
+
 ### Notification
 
 {: .box-note}
