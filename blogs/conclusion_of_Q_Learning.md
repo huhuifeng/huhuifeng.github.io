@@ -113,6 +113,9 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 {: .box-error}
 **动机:** 上面的实验结果也是本文探索优先经验回放的动机.
 
+&emsp;&emsp;<b><font color=blue>那么怎么来确定每个transtion的优先级？</font></b>下面介绍论文提出的一种基于<b><font color=red>TD误差</font></b>确定优先级的方法：
+<b><font face="楷体" color=blue>一些改进的方向:</font></b>
+
 ### Notification
 
 {: .box-note}
