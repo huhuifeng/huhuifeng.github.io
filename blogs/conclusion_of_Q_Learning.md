@@ -142,6 +142,15 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 
 &emsp;&emsp;另外运用<b><font color=red>二叉堆的数据结构</font></b>来存储优先级队列，这样查找最高优先级的transition的时间复杂度为O(1)，更新优先级队列的时间复杂度为O(logN).
 
+<b><font color=red>那么这种方法存在什么样的问题？</font></b>(感觉这种不断提出问题和解答问题的模式比较适合这种总结，也比较利于梳理)
+
+原文总结的<b><font color=red>"greedy TD-error prioritization"</font></b>存在的问题如下：
+- 为避免扫描整个经验池带来的昂贵代价，<b><font color=red>只会更新被回放的transition的TD误差值</font></b>，这样会造成第一次见过的<b><font color=red>一个很小的TD误差的transition</font></b>存放到经验池后，在<b><font color=red>很长时间得不到更新</font></b>.
+- <b><font color=red>TD误差对于噪声比较敏感</font></b>，容易将源于噪声的估计误差加入.
+- 这种方法专注于“经验”的一小部分，TD误差减小慢，特别是在用到函数近似的时候，<b><font color=red>高TD误差的transition回放频繁，使得丧失多样性并且会导致过拟合</font></b>.
+
+
+
 ### Notification
 
 {: .box-note}
