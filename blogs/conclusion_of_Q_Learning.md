@@ -135,8 +135,12 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 ![pri_compare](./pictures/pri_compare_TD.png){: .mx-auto.d-block :}
 
 <center>
-	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"上 greedy vs uniform</font></b>
+	<b><font face="楷体" size=4> 图5. "Blind Cliffwalk"上 greedy vs uniform</font></b>
 </center>
+
+&emsp;&emsp;上图greedy(红色的线)就是<b><font color=red>"greedy TD-error prioritization"</font></b>的结果，黑色的线表示随机均匀选取的结果，相比后者，前者的效果更好.
+
+&emsp;&emsp;另外运用<b><font color=red>二叉堆的数据结构</font></b>来存储优先级队列，这样查找最高优先级的transition的时间复杂度为O(1)，更新优先级队列的时间复杂度为O(logN).
 
 ### Notification
 
