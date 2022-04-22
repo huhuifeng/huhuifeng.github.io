@@ -95,6 +95,7 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 	<b><font face="楷体" size=4> 图4. "Blind Cliffwalk"</font></b>
 </center>
 &emsp;&emsp;上面“Blind Cliffwalk”环境，agent每一步有两个选择“right”和“wrong”，其中红色虚线表示“<font color=red>wrong</font>”黑色实箭头表示“right”.每个episode中以agent采取“<font color=red>wrong</font>”行动作为终止条件，只有agent不断采取“right”行动，并且到达n step才会获得奖励1（如绿色箭头所示），其他情况获得的奖励均为0.
+
 &emsp;&emsp;假如每个阶段随机的选择两个动作，那么得到奖励的概率是$2^{-n}$，相关的transitions即少量成功的信息隐藏在大量失败信息当中.类似于一个双足机器人在学会走路之前反复摔倒[^3].
 
 ![pri_compare](./pictures/pri_compare.png){: .mx-auto.d-block :}
@@ -108,6 +109,9 @@ DQN中一个比较重要的<font face="黑体" color=orange>trick</font>就是�
 - 利用oracle进行优先级经验池回放如靛蓝色的线所示.
 - 灰色的线表示每十次采样的最大值和最小值.
 - 由图可知采用优先级采样<b><font color=red>达到收敛所需的更新次数相比均匀采样要小很多</font></b>.
+
+{: .box-error}
+**动机:** 上面的实验结果也是本文探索优先经验回放的动机.
 ### Notification
 
 {: .box-note}
