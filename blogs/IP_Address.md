@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IP_Address
+title: IP Address
 ---
 
 
